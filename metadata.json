@@ -1,0 +1,6 @@
+{
+  "name": "U-GRAFIX",
+  "description": "U-GRAFIX is an international graphic design and luxury print production agency specializing in brand identity, tactile packaging, editorial monographs, and global press execution.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-obsidian: #070708;
+  --color-charcoal: #111114;
+  --color-graphite: #1A1A1F;
+  --color-paper: #F7F7F5;
+  --color-ink: #0A0A0B;
+  --color-lime-volt: #C6FF00;
+  --color-lime-volt-hover: #D4FF33;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-padding-top: 5rem;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
